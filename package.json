@@ -8,7 +8,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
     "@clerk/clerk-expo": "^2.13.0",
@@ -56,14 +57,3 @@
   },
   "private": true
 }
-
-"scripts": {
-  "start": "expo start",
-  "reset-project": "node ./scripts/reset-project.js",
-  "android": "expo start --android",
-  "ios": "expo start --ios",
-  "web": "expo start --web",
-  "lint": "expo lint",
-  "test": "echo \"No tests specified\" && exit 0"
-}
-
